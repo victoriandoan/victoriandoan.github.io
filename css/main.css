@@ -2,14 +2,13 @@ div {
 	word-break: keep-all;
 	background-color: white;
 	margin: 30px;
-	border: 2px silver;
 	padding: 30px;
-	height: 100%;
-	width: 75%;
+	height: auto;
+	width: auto;
 }
 
 body {
-	background-color: darkslategray;
+	background-color: cyan;
 }
 
 img {
