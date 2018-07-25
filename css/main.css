@@ -41,3 +41,7 @@ fieldset {
 	display: inline-block;
 	border: 2px solid silver;
 }
+
+input {
+	text-aligh: center;
+}
