@@ -1,7 +1,7 @@
 div {
 	border-style: solid;
 	border-width: 5px;
-	border-color: cyan transparent cyan transparent;
+	border-color: cyan black cyan black;
 	word-break: keep-all;
 	background-color: white;
 	margin: 30px;
@@ -11,7 +11,7 @@ div {
 }
 
 body {
-	background-color: darkgray;
+	background-color: silver;
 }
 
 img {
@@ -26,12 +26,12 @@ h1, h2, p {
 	font-family: "Verdana", "Geneva", "sans-serif";
 
 h1 {
-	color: cyan;
+	color: steelblue;
 	font-size: 50px;
 }
 
 h2 {
-	color: silver;
+	color: darkgray;
 	font-size: 14px;
 }
 
