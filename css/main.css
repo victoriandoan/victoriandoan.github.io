@@ -1,9 +1,9 @@
 div {
 	word-wrap: break-word;
 	background-color: white;
-	margin: 10px;
+	margin: 30px;
 	border: 2px silver;
-	padding: 10px;
+	padding: 30px;
 	height: 50%;
 	width: 50%;
 }
@@ -37,11 +37,6 @@ p {
 	font-size: 8;
 }
 
-fieldset {
-	display: inline-block;
-	border: 2px solid silver;
-}
-
 input {
-	text-aligh: center;
+	text-align: center;
 }
