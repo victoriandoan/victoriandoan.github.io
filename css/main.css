@@ -9,31 +9,29 @@ div {
 }
 
 body {
-	background-color: steelblue;
+	background-color: gray;
 }
 
 img {
-	max-width: 75%;
+	max-width: 100%;
 	height: auto;
 }
 
+h1, h2, p {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif
+
 h1 {
 	color: cyan;
-	text-align: center;
-	font: verdana;
 	font-size: 50;
 }
 
 h2 {
 	color: silver;
-	text-align: center;
-	font: verdana;
 	font-size: 14;
 }
 
 p {
-	text-align: center;
-	font: verdana;
 	font-size: 8;
 }
 
