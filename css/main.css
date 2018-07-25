@@ -1,4 +1,7 @@
 div {
+	border-style: double;
+	border-width: 5px;
+	border-color: silver;
 	word-break: keep-all;
 	background-color: white;
 	margin: 30px;
