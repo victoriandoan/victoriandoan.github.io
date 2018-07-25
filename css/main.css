@@ -1,6 +1,6 @@
 div {
-	word-wrap: break-word;
-	white-space: pre-line;
+	white-space: pre-wrap;
+	word-break: keep-all;
 	background-color: white;
 	margin: 30px;
 	border: 2px silver;
