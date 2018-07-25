@@ -1,7 +1,7 @@
 div {
 	border-style: double;
 	border-width: 5px;
-	border-color: silver;
+	border-color: silver Transparent silver Transparent;
 	word-break: keep-all;
 	background-color: white;
 	margin: 30px;
