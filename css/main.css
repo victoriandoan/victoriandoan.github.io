@@ -19,7 +19,7 @@ img {
 
 h1, h2, p {
 	text-align: center;
-	font-family: Verdana, Geneva, sans-serif
+	font-family: "Verdana", "Geneva", "sans-serif";
 
 h1 {
 	color: cyan;
@@ -37,4 +37,11 @@ p {
 
 input {
 	text-align: center;
+}
+
+.button {
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: 2px black;
+	overflow: hidden;
 }
