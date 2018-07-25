@@ -5,8 +5,8 @@ div {
 	margin: 30px;
 	border: 2px silver;
 	padding: 30px;
-	height: 50%;
-	width: 50%;
+	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -38,13 +38,13 @@ p {
 	font-size: 8;
 }
 
-input {
+input[type=text] {
 	text-align: center;
 }
 
-.button {
+input[type=submit] {
 	background-color: Transparent;
 	background-repeat: no-repeat;
 	border: 2px black;
-	overflow: hidden;
+	cursor: pointer;
 }
