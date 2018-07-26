@@ -32,11 +32,12 @@ h1 {
 h2 {
 	color: darkgray;
 	font-size: 20px;
+	width: 50%;
 }
 
 p {
 	display: block;
-	width: 100px;
+	width: 50%;
 	font-size: 12px;
 }
 
