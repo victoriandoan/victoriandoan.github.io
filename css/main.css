@@ -27,6 +27,11 @@ img {
 h1 {
 	color: cyan;
 	font-size: 50px;
+	text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+		2px 2px 0 #000;
 }
 
 h2 {
@@ -37,8 +42,8 @@ h2 {
 
 p {
 	display: block;
-	width: 50%;
-	font-size: 300px;
+	width: 300px;
+	font-size: 3px;
 }
 
 input[type=text] {
