@@ -9,6 +9,7 @@ div {
 	height: auto;
 	width: auto;
 	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
 }
 
 body {
@@ -21,10 +22,6 @@ img {
 	margin-right: auto;
 	width: 100%;
 }
-
-h1, h2, p {
-	text-align: center;
-	font-family: "Verdana", "Geneva", "sans-serif";
 
 h1 {
 	color: steelblue;
