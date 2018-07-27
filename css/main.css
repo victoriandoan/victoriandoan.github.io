@@ -40,6 +40,7 @@ img {
 }
 
 h1 {
+	font-family: "Josefin Sans";
 	color: cyan;
 	font-size: 50px;
 	text-shadow:
@@ -50,6 +51,7 @@ h1 {
 }
 
 h2 {
+	font-family: "Josefin Sans";
 	color: darkgray;
 	font-size: 20px;
 	min-width: 300px;
@@ -66,11 +68,11 @@ p {
 	margin-right: auto;
 }
 
-input[type=text] {
+.inputbox {
 	text-align: center;
 }
 
-input[type=submit] {
+.button {
 	border: solid;
 	border-color: cyan;
 	border-width: 2px;
