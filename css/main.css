@@ -22,6 +22,9 @@ div.email {
 	border-style: dotted;
 	border-color: black;
 	border-width: 2px;
+	padding: auto;
+	max-width: 100px;
+	min-width: 50px;
 }
 	
 body {
