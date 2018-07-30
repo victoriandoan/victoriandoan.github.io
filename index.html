@@ -3,7 +3,63 @@
 <html>
 <head>
 	<title>Email Test</title> <!-- Word(s) that show on the tab -->
-	<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Attach CSS file -->
+	<style type="text/css">
+
+		.body {
+			border-style: solid;
+			border-width: 5px;
+			border-color: Transparent black Transparent black;
+			word-break: keep-all;
+			background-color: white;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: 50px;
+			margin-right: 50px;
+			padding: 30px;
+			height: auto;
+			width: auto;
+			font-family: Verdana, Geneva, sans-serif;
+			text-align: center;
+		}
+			
+		body {
+			background-color: silver;
+		}
+
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 75%;
+			height: auto;
+		}
+
+		h1 {
+			color: black;
+			font-size: 50px;
+		}
+
+		h2 {
+			color: darkgray;
+			font-size: 20px;
+			min-width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		p {
+			min-width: 300px;
+			max-width: 600px;
+			font-size: 12px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.footnote {
+			font-size: 8px;
+			font-color: darkgray;
+		}
+	</style>
 	<!-- <script src="emailForm.js"> Attach JS file -->
 </head>
 <body>
@@ -12,10 +68,13 @@
 		<img src="https://www.iizcat.com/uploads/2015/07/cx605-loaf30.jpg" alt="Purebread Catloaf">
 		<h2>Cat ipsum dolor sit amet, mow mow mow mow mow mow</h2>
 		<p>Kitty loves pigs give attitude, but mark territory, so sit in box or ignore the human until she needs to get up, then climb on her lap and sprawl jumps off balcony gives owner dead mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in grass.</p><br>
-		<div class="email">	
-			<!-- Email input field and submit button -->
-			<p>Sign up for a chance to win! </p><input type="email" placeholder="your@email.com" title="Must be a valid email address">
-			<input type="submit" class="button" value="ENTER">
-	</div></div>
+		
+		<!-- Add Rafflecopter code below -->
+		<a class="rcptr" href="http://www.rafflecopter.com/rafl/display/486953ac0/" rel="nofollow" data-raflid="486953ac0" data-theme="classic" data-template="" id="rcwidget_kjvfwk0e">a Rafflecopter giveaway</a>
+		<script src="https://widget-prime.rafflecopter.com/launch.js"></script>
+		<!-- End Rafflecopter code -->
+		
+		<p class="footnote">©2018</p>
+
 </body>
 </html>
